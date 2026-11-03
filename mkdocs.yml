@@ -1,10 +1,13 @@
-site_name: 我的技术文档
+site_name: 开源软件实验文档
+site_description: GitHub Actions与MkDocs实验
 theme:
   name: material
+  palette:
+    primary: indigo
+    accent: indigo
 nav:
-        - 首页: index.md
-        - 关于: about.md
-        - 指南: guide.md
-        - API: api.md
-        
+  - 首页: index.md
+  - 关于: about.md
+  - 实验指南: guide.md
+  - API参考: api.md
  
